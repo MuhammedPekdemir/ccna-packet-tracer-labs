@@ -1,0 +1,15 @@
+enable
+configure terminal
+!
+interface fastethernet 0/1
+ switchport mode access
+ switchport access vlan 10
+!
+interface fastethernet 0/2
+ switchport mode access
+ switchport access vlan 20
+!
+! Gig0/1 varsayılan dynamic auto; Switch1'in teklifiyle trunk olur
+interface gigabitethernet 0/1
+ switchport trunk native vlan 10
+end

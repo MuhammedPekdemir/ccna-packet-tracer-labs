@@ -1,0 +1,15 @@
+enable
+configure terminal
+!
+interface range fastethernet 0/1 - 3
+ switchport mode trunk
+ exit
+!
+vtp domain cisco
+vtp mode transparent
+!
+! Yalnızca bu switch'te geçerli yerel VLAN'lar
+vlan 100
+vlan 110
+ exit
+end

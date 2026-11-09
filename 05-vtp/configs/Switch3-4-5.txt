@@ -1,0 +1,10 @@
+! Uçtaki switch'lerde trunk komutu yazılmadı:
+! portlar varsayılan "dynamic auto" modunda, karşı taraf trunk olunca otomatik trunk olur.
+!
+! Switch4 ve Switch5 (client):
+enable
+configure terminal
+vtp mode client
+end
+!
+! Switch3 (server): varsayılan mod zaten server
