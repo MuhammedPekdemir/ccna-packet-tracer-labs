@@ -1,6 +1,6 @@
 # CCNA Packet Tracer Labs
 
-Cisco Packet Tracer üzerinde kurduğum ağ senaryoları. Her senaryo gerçek bir ağ problemini ele alıyor: farklı ağları birbirine bağlamak, aynı switch üzerindeki kullanıcıları ayırmak, switch'leri uzaktan yönetmek, VLAN'ları birden fazla switch'e taşımak ve VLAN yönetimini merkezileştirmek.
+Cisco Packet Tracer üzerinde kurduğum ağ senaryoları. Her senaryo gerçek bir ağ problemini ele alıyor.Farklı ağları birbirine bağlamak, aynı switch üzerindeki kullanıcıları ayırmak, switch'leri uzaktan yönetmek, VLAN'ları birden fazla switch'e taşımak ve VLAN yönetimini merkezileştirmek.
 
 Her klasörde Packet Tracer dosyası, cihaz yapılandırmaları, test adımları ve karşılaştığım hatalar yer alıyor.
 
